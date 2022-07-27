@@ -1,13 +1,13 @@
 # Goals：
 This project is to preliminarily practice the ability to use and apply SQL concepts to complete tasks in real scenes。
 
-###Relational Schema：
+### Relational Schema：
 User [id, fName, mInitial, lName, age, phone, email, nationality, significantOther]
 Event [title, date, description, location, sponsor]
 Attends [id, title, date, travelMethod]
 Friends [requestor, requestee, startDate
 
-###Foreign Keys
+### Foreign Keys
 
 User.significantOther references User.id
 Attends.{title, date} references Event.{title, date}
